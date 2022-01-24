@@ -1,0 +1,13 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/output.css -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
